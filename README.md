@@ -1,7 +1,7 @@
 # Meme Downloader
 A Node.JS app that allows you to download memes to your computer from Reddit, fast and with no limitations
 
-## Installation (Make sure you have node.js and npm!)
+## Installation (Make sure you have node.js and npm installed!)
 1. Clone/Download this repository, extract the zip file if needed.
 2. Run the `install.cmd` file to download the required modules (depedencies).
 
