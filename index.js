@@ -1,13 +1,13 @@
-// Meme Downloader (Made by @lazycouchdoge, github: PhoenixDiscord)
 const fs = require('fs');
 const imageDownload = require('image-download');
 const imageType = require('image-type');
-var meme = require("memejs")
-console.log("Loading meme data...")
-meme(function(data, err) {
-  if (err) return console.error(err);
-  imageDownload(data.url[0]).then(buffer => {
-    const type = imageType(buffer);
-    fs.writeFile(data.title + '.' + type.ext, buffer, (err) => console.log(err ? err : 'Meme downloaded successfully!')); 
-});
+const meme = require("memejs-c456");
+
+meme((data, err) => {
+  if (!err && data && data.url) {
+    imageDownload(data.url[0]).then(buffer => {
+      const type = imageType(buffer);
+      fs.writeFileSync(`${data.title}.${type.ext}`, buffer, "utf8"); 
+	  }).catch(err => {});
+  }
 });

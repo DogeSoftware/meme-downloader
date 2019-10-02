@@ -6,7 +6,8 @@
   "dependencies": {
     "image-download": "^1.2.0",
     "image-type": "^4.1.0",
-    "memejs": "^1.1.2"
+    "memejs": "^1.1.2",
+    "memejs-c456": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
