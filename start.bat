@@ -1,4 +1,5 @@
 @echo off
+mode con: cols=90 lines=26
 title Meme Downloader
 call node scripts/writeHeader.js
 where npm.cmd >nul 2>&1 && goto NPMInstalled || goto NPMNotInstalled
