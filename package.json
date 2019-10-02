@@ -1,0 +1,25 @@
+{
+  "name": "meme-downloader",
+  "version": "1.0.0",
+  "description": "A Node.JS app that allows you to download memes to your computer from Reddit, fast and with no limitations",
+  "main": "meme.js",
+  "dependencies": {
+    "image-download": "^1.2.0",
+    "image-type": "^4.1.0",
+    "memejs": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheesits456/meme-downloader.git"
+  },
+  "author": "lazycouchdoge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheesits456/meme-downloader/issues"
+  },
+  "homepage": "https://github.com/cheesits456/meme-downloader#readme"
+}
