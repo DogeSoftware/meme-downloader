@@ -7,7 +7,7 @@ meme((data, err) => {
   if (!err && data && data.url) {
     imageDownload(data.url[0]).then(buffer => {
       const type = imageType(buffer);
-      fs.writeFileSync(`${data.title}.${type.ext}`, buffer, "utf8"); 
+      fs.writeFileSync(`${fs.readdirSync("./").length + 1}.${type.ext}`, buffer, "utf8"); 
 	  }).catch(err => {});
   }
 });
