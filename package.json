@@ -4,6 +4,7 @@
   "description": "A Node.JS app that allows you to download memes to your computer from Reddit, fast and with no limitations",
   "main": "meme.js",
   "dependencies": {
+    "colors": "^1.4.0",
     "image-download": "^1.2.0",
     "image-type": "^4.1.0",
     "memejs": "^1.1.2",
