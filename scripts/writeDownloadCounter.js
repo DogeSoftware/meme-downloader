@@ -7,7 +7,7 @@ console.log("\n" +
   colors.brightGreen("               |      |   \n") +
   colors.brightGreen("               |      |   \n") +
   colors.brightGreen("            ___|      |___\n") +
-  colors.brightGreen("            \\            /") + colors.bold(`     ${fs.readdirSync("./").length} memes saved\n`) +
+  colors.brightGreen("            \\            /") + colors.bold(`     ${fs.readFileSync("../HighestNumber.txt", "utf8")} memes saved\n`) +
   colors.brightGreen("             \\          / \n") +
   colors.brightGreen("              \\        /  \n") +
   colors.brightGreen("               \\      /   \n") +
