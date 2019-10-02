@@ -1,5 +1,5 @@
 # Meme Downloader
-A Node.JS app that allows you to download memes to your computer from Reddit, fast and with no limitations
+A Microsoft Batch/NodeJS app that allows you to download memes from Reddit automatically
 
 ## Installation
 - Make sure you have NodeJS and the Node Package Manager (NPM) installed.
