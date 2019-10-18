@@ -7,5 +7,5 @@ console.log(
   colors.brightCyan("  | |\\/| |/ _ | '_ ` _ \\ / _ \\ ") + colors.brightBlue(" | | | / _ \\ \\ /\\ / | '_ \\| |/ _ \\ / _` |/ _` |/ _ | '__|\n") +
   colors.brightCyan("  | |  | |  __| | | | | |  __/ ") + colors.brightBlue(" | |/ / (_) \\ V  V /| | | | | (_) | (_| | (_| |  __| |\n") +
   colors.brightCyan("  \\_|  |_/\\___|_| |_| |_|\\___| ") + colors.brightBlue(" |___/ \\___/ \\_/\\_/ |_| |_|_|\\___/ \\__,_|\\__,_|\\___|_|\n") +
-  "                                                       " + colors.underline("by lazydevdoge and cheesits456\n\n")
+  "                                                       " + colors.underline("by d3nk and cheesits456\n\n")
 );
