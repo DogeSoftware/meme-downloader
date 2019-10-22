@@ -1,13 +1,14 @@
-# Meme Downloader
-A Microsoft Batch/NodeJS app that allows you to download memes from Reddit automatically
+# Meme Downloader (Linux version)
+A Shell/NodeJS app that allows you to download memes from Reddit automatically
 
-## Installation
-- Make sure you have NodeJS and the Node Package Manager (NPM) installed.
-- Clone or download this repository.
-- All dependencies are installed automatically when you run `start.bat`.
+## Experimental
+This script was not really fully tested. **NEVER** run it as root, and check its code so you won't make your system die.
+It was tested on an Arch Linux system. (i use arch btw)
 
-## Usage
-Run `start.bat` - it will make sure all dependencies are up to date, then it will download memes indefinitely, until the window is closed.
-
-## Windows
-If you've downloaded the zip file for Windows from the `Releases` page, open the `.exe` file to run the program. The executable still requires you to have NodeJS and NPM installed on your system, so you will need to do that before running it.
+## Installation and usage
+- Install Node.JS and NPM.
+- Check which command starts up Node.JS. Type `node` and `nodejs` on your terminal and check which one works.
+  If it works through `nodejs`, you have to make an alias. Type on your terminal: `alias node="nodejs"`.
+  This will make a temporary alias (which won't be kept on reboot).
+- Clone this repository, or download a release version if possible.
+- `cd` into the repository and run `start.sh` which will download the required libraries and will start the download process
