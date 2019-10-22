@@ -1,7 +1,7 @@
 # Meme Downloader (Linux version)
 A Shell/NodeJS app that allows you to download memes from Reddit automatically
 
-![screenshot.jpg](https://i.imgur.com/LBJn7vY.jpg)
+![screenshot.jpg](https://i.imgur.com/ckC6TEX.jpg)
 
 ## Experimental
 This script was not really fully tested. **NEVER** run it as root, and check its code so you won't make your system die.
