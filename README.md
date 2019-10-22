@@ -11,3 +11,6 @@ Run `start.bat` - it will make sure all dependencies are up to date, then it wil
 
 ## Windows
 If you've downloaded the zip file for Windows from the `Releases` page, open the `.exe` file to run the program. The executable still requires you to have NodeJS and NPM installed on your system, so you will need to do that before running it.
+
+## Experimental Linux version
+A Linux version of Meme Downloader is at the `dev-linux` branch. https://github.com/DogeSoftware/meme-downloader/tree/dev-linux
