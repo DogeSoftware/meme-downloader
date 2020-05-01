@@ -6,9 +6,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "image-download": "^1.2.0",
-    "image-type": "^4.1.0",
-    "memejs": "^1.1.2",
-    "memejs-c456": "^1.0.1"
+    "image-type": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,12 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheesits456/meme-downloader.git"
+    "url": "git+https://github.com/DogeSoftware/meme-downloader.git"
   },
-  "author": "lazycouchdoge",
+  "author": "DogeSoftware",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheesits456/meme-downloader/issues"
+    "url": "https://github.com/DogeSoftware/meme-downloader/issues"
   },
-  "homepage": "https://github.com/cheesits456/meme-downloader#readme"
+  "homepage": "https://github.com/DogeSoftware/meme-downloader#readme"
 }
+
+
