@@ -7,7 +7,7 @@ where node.exe >nul 2>&1 && goto NodeInstalled || goto NodeNotInstalled
 :NodeInstalled
 echo Updating Libraries . . .
 echo.
-call npm i image-download image-type memejs-c456 colors
+call npm i image-download image-type random-puppy colors
 title Meme Downloader
 echo Libraries are up to date!
 echo.
