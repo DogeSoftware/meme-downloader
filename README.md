@@ -1,5 +1,7 @@
 # Meme Downloader
-A Microsoft Batch/NodeJS app that allows you to download memes from Reddit automatically
+A Microsoft Batch/NodeJS app that allows you to download memes from Reddit automatically.
+
+*Yes, it works in 2020.*
 
 ## Installation
 - Make sure you have NodeJS and the Node Package Manager (NPM) installed.
